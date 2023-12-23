@@ -638,6 +638,91 @@
                 line-height: 1.2;
             }
 
+            #text23 {
+                text-align: right;
+                color: #E3252F;
+                font-family: 'Indie Flower', cursive;
+                padding-left: 0;
+                padding-right: 0.125rem;
+                letter-spacing: 0.175rem;
+                width: calc(100% + 0.175rem);
+                font-size: 1em;
+                line-height: 1.875;
+                font-weight: 400;
+            }
+
+            #text23 a {
+                text-decoration: underline;
+            }
+
+            #text23 a:hover {
+                text-decoration: none;
+            }
+
+            #text23 span.p:nth-child(n + 2) {
+                margin-top: 1rem;
+            }
+
+            #text23 > * {
+                display: inline-block;
+                line-height: 1.2;
+            }
+
+            #text24 {
+                text-align: right;
+                color: #E3252F;
+                font-family: 'Indie Flower', cursive;
+                padding-left: 0;
+                padding-right: 0.125rem;
+                letter-spacing: 0.175rem;
+                width: calc(100% + 0.175rem);
+                font-size: 1em;
+                line-height: 1.875;
+                font-weight: 400;
+            }
+
+            #text24 a {
+                text-decoration: underline;
+            }
+
+            #text24 a:hover {
+                text-decoration: none;
+            }
+
+            #text24 span.p:nth-child(n + 2) {
+                margin-top: 1rem;
+            }
+
+            #text24 > * {
+                display: inline-block;
+                line-height: 1.2;
+            }
+
+            #text22 {
+                text-align: justify;
+                color: #E3252F;
+                font-family: 'Indie Flower', cursive;
+                padding-left: 0.125rem;
+                padding-right: 0;
+                letter-spacing: 0.175rem;
+                width: calc(100% + 0.175rem);
+                font-size: 1em;
+                line-height: 1.875;
+                font-weight: 400;
+            }
+
+            #text22 a {
+                text-decoration: underline;
+            }
+
+            #text22 a:hover {
+                text-decoration: none;
+            }
+
+            #text22 span.p:nth-child(n + 2) {
+                margin-top: 1rem;
+            }
+
             #text12 {
                 text-align: center;
                 color: #E3252F;
@@ -974,6 +1059,17 @@
                 border-radius: 0px;
             }
 
+            #divider08 {
+                justify-content: flex-end;
+            }
+
+            #divider08:before {
+                width: 9rem;
+                background-color: #E3252F;
+                height: 1px;
+                border-radius: 0px;
+            }
+
             #divider04 {
                 justify-content: flex-end;
             }
@@ -1181,22 +1277,22 @@
                 transform: scale(1.0775);
             }
 
-            #buttons05 {
+            #buttons01 {
                 justify-content: flex-end;
                 gap: 1rem;
                 flex-direction: row;
                 flex-wrap: wrap;
             }
 
-            #buttons05:not(:first-child) {
+            #buttons01:not(:first-child) {
                 margin-top: 1.75rem !important;
             }
 
-            #buttons05:not(:last-child) {
+            #buttons01:not(:last-child) {
                 margin-bottom: 1.75rem !important;
             }
 
-            #buttons05 li a {
+            #buttons01 li a {
                 display: inline-flex;
                 width: auto;
                 height: 3rem;
@@ -1212,7 +1308,7 @@
                 transition: transform 0.625s ease, color 0.625s ease, background-color 0.625s ease, border-color 0.625s ease;
             }
 
-            #buttons05 li a svg {
+            #buttons01 li a svg {
                 display: block;
                 fill: #E3252F;
                 flex-grow: 0;
@@ -1225,25 +1321,91 @@
                 transition: fill 0.625s ease;
             }
 
-            #buttons05 li a .label {
+            #buttons01 li a .label {
                 direction: var(--site-language-direction);
                 overflow: hidden;
             }
 
-            #buttons05 .button {
+            #buttons01 .button {
                 background-color: #F0F0F0;
                 color: #E3252F;
             }
 
-            #buttons05 .button svg {
+            #buttons01 .button svg {
                 fill: #E3252F;
             }
 
-            #buttons05 .button:hover {
+            #buttons01 .button:hover {
                 background-color: #0F0F0F !important;
             }
 
-            #buttons05 li a:hover {
+            #buttons01 li a:hover {
+                transform: scale(1.0775);
+            }
+
+            #buttons04 {
+                justify-content: flex-end;
+                gap: 1rem;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            #buttons04:not(:first-child) {
+                margin-top: 1.75rem !important;
+            }
+
+            #buttons04:not(:last-child) {
+                margin-bottom: 1.75rem !important;
+            }
+
+            #buttons04 li a {
+                display: inline-flex;
+                width: auto;
+                height: 3rem;
+                line-height: 3rem;
+                padding: 0 1.5rem;
+                vertical-align: middle;
+                font-family: 'Gaegu', cursive;
+                letter-spacing: 0.125rem;
+                padding-left: calc(0.125rem + 1.5rem);
+                font-size: 1em;
+                font-weight: 400;
+                border-radius: 0.5rem;
+                transition: transform 0.625s ease, color 0.625s ease, background-color 0.625s ease, border-color 0.625s ease;
+            }
+
+            #buttons04 li a svg {
+                display: block;
+                fill: #E3252F;
+                flex-grow: 0;
+                flex-shrink: 0;
+                height: 100%;
+                min-width: 16px;
+                width: 1em;
+                margin-left: -0.125em;
+                margin-right: calc(0.5em + 0.125rem);
+                transition: fill 0.625s ease;
+            }
+
+            #buttons04 li a .label {
+                direction: var(--site-language-direction);
+                overflow: hidden;
+            }
+
+            #buttons04 .button {
+                background-color: #F0F0F0;
+                color: #E3252F;
+            }
+
+            #buttons04 .button svg {
+                fill: #E3252F;
+            }
+
+            #buttons04 .button:hover {
+                background-color: #0F0F0F !important;
+            }
+
+            #buttons04 li a:hover {
                 transform: scale(1.0775);
             }
 
@@ -1450,6 +1612,24 @@
             }
 
             #image05 .frame:hover {
+                filter: brightness(128.125%);
+            }
+
+            #image03 .frame {
+                max-width: 100%;
+                width: auto;
+                transition: filter 1.125s ease;
+                filter: brightness(100%);
+            }
+
+            #image03 img {
+                height: 100% !important;
+                object-fit: cover;
+                object-position: center;
+                width: 100% !important;
+            }
+
+            #image03 .frame:hover {
                 filter: brightness(128.125%);
             }
 
@@ -2527,6 +2707,146 @@
                 width: calc(40% + (var(--gutters) / 2));
             }
 
+            #container05 {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                background-color: transparent;
+            }
+
+            #container05 > .wrapper > .inner {
+                --gutters: 8rem;
+                --padding-horizontal: 0rem;
+                --padding-vertical: 0rem;
+                --spacing: 1.25rem;
+                padding: var(--padding-vertical) var(--padding-horizontal);
+            }
+
+            #container05 > .wrapper {
+                max-width: var(--width);
+                width: 100%;
+            }
+
+            #container05.default > .wrapper > .inner > * {
+                margin-bottom: var(--spacing);
+                margin-top: var(--spacing);
+            }
+
+            #container05.default > .wrapper > .inner > *:first-child {
+                margin-top: 0 !important;
+            }
+
+            #container05.default > .wrapper > .inner > *:last-child {
+                margin-bottom: 0 !important;
+            }
+
+            #container05.columns > .wrapper > .inner {
+                flex-wrap: wrap;
+                display: flex;
+                align-items: center;
+            }
+
+            #container05.columns > .wrapper > .inner > * {
+                flex-grow: 0;
+                flex-shrink: 0;
+                max-width: 100%;
+                text-align: var(--alignment);
+                padding: 0 0 0 var(--gutters);
+            }
+
+            #container05.columns > .wrapper > .inner > * > * {
+                margin-bottom: var(--spacing);
+                margin-top: var(--spacing);
+            }
+
+            #container05.columns > .wrapper > .inner > * > *:first-child {
+                margin-top: 0 !important;
+            }
+
+            #container05.columns > .wrapper > .inner > * > *:last-child {
+                margin-bottom: 0 !important;
+            }
+
+            #container05.columns > .wrapper > .inner > *:first-child {
+                margin-left: calc(var(--gutters) * -1);
+            }
+
+            #container05.default > .wrapper > .inner > .full {
+                margin-left: calc(var(--padding-horizontal) * -1);
+                max-width: none !important;
+                width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+            }
+
+            #container05.default > .wrapper > .inner > .full:first-child {
+                margin-top: calc(var(--padding-vertical) * -1) !important;
+                border-top-left-radius: inherit;
+                border-top-right-radius: inherit;
+            }
+
+            #container05.default > .wrapper > .inner > .full:last-child {
+                margin-bottom: calc(var(--padding-vertical) * -1) !important;
+                border-bottom-left-radius: inherit;
+                border-bottom-right-radius: inherit;
+            }
+
+            #container05.columns > .wrapper > .inner > div > .full {
+                margin-left: calc(var(--gutters) * -0.5);
+                max-width: none !important;
+                width: calc(100% + var(--gutters) + 0.4725px);
+            }
+
+            #container05.columns > .wrapper > .inner > div:first-child > .full {
+                margin-left: calc(var(--padding-horizontal) * -1);
+                width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+            }
+
+            #container05.columns > .wrapper > .inner > div:last-child > .full {
+                width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+            }
+
+            #container05.columns > .wrapper > .inner > div > .full:first-child {
+                margin-top: calc(var(--padding-vertical) * -1) !important;
+            }
+
+            #container05.columns > .wrapper > .inner > div > .full:last-child {
+                margin-bottom: calc(var(--padding-vertical) * -1) !important;
+            }
+
+            #container05.columns > .wrapper > .inner > .full {
+                align-self: stretch;
+            }
+
+            #container05.columns > .wrapper > .inner > .full:first-child {
+                border-bottom-left-radius: inherit;
+                border-top-left-radius: inherit;
+            }
+
+            #container05.columns > .wrapper > .inner > .full:last-child {
+                border-bottom-right-radius: inherit;
+                border-top-right-radius: inherit;
+            }
+
+            #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+                border-radius: inherit;
+                height: calc(100% + (var(--padding-vertical) * 2));
+            }
+
+            #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+                border-radius: inherit;
+                height: 100%;
+                position: absolute;
+                width: 100%;
+            }
+
+            #container05 > .wrapper > .inner > :nth-child(1) {
+                width: calc(55% + (var(--gutters) / 2));
+            }
+
+            #container05 > .wrapper > .inner > :nth-child(2) {
+                width: calc(45% + (var(--gutters) / 2));
+            }
+
             form {
                 display: flex;
                 justify-content: var(--flex-alignment);
@@ -3248,6 +3568,57 @@
                     line-height: 1.875;
                 }
 
+                #text23:not(:first-child) {
+                    margin-top: 0.125rem !important;
+                }
+
+                #text23:not(:last-child) {
+                    margin-bottom: 0.125rem !important;
+                }
+
+                #text23 {
+                    padding-left: 0;
+                    padding-right: 1.75rem;
+                    letter-spacing: 0.153125rem;
+                    width: calc(100% + 0.153125rem);
+                    font-size: 1em;
+                    line-height: 1.875;
+                }
+
+                #text24:not(:first-child) {
+                    margin-top: 0.125rem !important;
+                }
+
+                #text24:not(:last-child) {
+                    margin-bottom: 0.125rem !important;
+                }
+
+                #text24 {
+                    padding-left: 0;
+                    padding-right: 1.75rem;
+                    letter-spacing: 0.153125rem;
+                    width: calc(100% + 0.153125rem);
+                    font-size: 1em;
+                    line-height: 1.875;
+                }
+
+                #text22:not(:first-child) {
+                    margin-top: 0.125rem !important;
+                }
+
+                #text22:not(:last-child) {
+                    margin-bottom: 0.125rem !important;
+                }
+
+                #text22 {
+                    padding-left: 1.75rem;
+                    padding-right: 0;
+                    letter-spacing: 0.153125rem;
+                    width: calc(100% + 0.153125rem);
+                    font-size: 1em;
+                    line-height: 1.875;
+                }
+
                 #text12:not(:first-child) {
                     margin-top: 0.125rem !important;
                 }
@@ -3410,6 +3781,10 @@
                     width: 9rem;
                 }
 
+                #divider08:before {
+                    width: 9rem;
+                }
+
                 #divider04:before {
                     width: 9rem;
                 }
@@ -3482,25 +3857,47 @@
                     width: 1em;
                 }
 
-                #buttons05 {
+                #buttons01 {
                     gap: 1rem;
                 }
 
-                #buttons05:not(:first-child) {
+                #buttons01:not(:first-child) {
                     margin-top: 1.3125rem !important;
                 }
 
-                #buttons05:not(:last-child) {
+                #buttons01:not(:last-child) {
                     margin-bottom: 1.3125rem !important;
                 }
 
-                #buttons05 li a {
+                #buttons01 li a {
                     letter-spacing: 0.125rem;
                     padding-left: calc(0.125rem + 1.5rem);
                     font-size: 1em;
                 }
 
-                #buttons05 li a svg {
+                #buttons01 li a svg {
+                    width: 1em;
+                }
+
+                #buttons04 {
+                    gap: 1rem;
+                }
+
+                #buttons04:not(:first-child) {
+                    margin-top: 1.3125rem !important;
+                }
+
+                #buttons04:not(:last-child) {
+                    margin-bottom: 1.3125rem !important;
+                }
+
+                #buttons04 li a {
+                    letter-spacing: 0.125rem;
+                    padding-left: calc(0.125rem + 1.5rem);
+                    font-size: 1em;
+                }
+
+                #buttons04 li a svg {
                     width: 1em;
                 }
 
@@ -3556,6 +3953,13 @@
                 }
 
                 #image05 img {
+                    height: 100% !important;
+                    object-fit: cover;
+                    object-position: center;
+                    width: 100% !important;
+                }
+
+                #image03 img {
                     height: 100% !important;
                     object-fit: cover;
                     object-position: center;
@@ -4315,6 +4719,107 @@
                     width: 100% !important;
                 }
 
+                #container05 > .wrapper > .inner {
+                    --gutters: 4rem;
+                    --padding-horizontal: 0rem;
+                    --padding-vertical: 0rem;
+                    --spacing: 1.25rem;
+                }
+
+                #container05.columns > .wrapper > .inner {
+                    flex-direction: column-reverse !important;
+                    flex-wrap: nowrap !important;
+                }
+
+                #container05.columns > .wrapper > .inner > span {
+                    height: 0;
+                    margin-top: calc(var(--padding-vertical) * -2);
+                    pointer-events: none;
+                    visibility: hidden;
+                }
+
+                #container05.columns > .wrapper > .inner > *:first-child {
+                    margin-left: 0 !important;
+                    padding-bottom: 0 !important;
+                }
+
+                #container05.columns > .wrapper > .inner > * {
+                    padding: calc(var(--gutters) * 0.5) 0 !important;
+                }
+
+                #container05.columns > .wrapper > .inner > *:last-child {
+                    padding-top: 0 !important;
+                }
+
+                #container05.columns > .wrapper > .inner > div > .full {
+                    margin-left: calc(var(--padding-horizontal) * -1);
+                    width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+                }
+
+                #container05.columns > .wrapper > .inner > div:first-of-type > .full {
+                    margin-left: calc(var(--padding-horizontal) * -1);
+                    width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+                }
+
+                #container05.columns > .wrapper > .inner > div:last-of-type > .full {
+                    margin-left: calc(var(--padding-horizontal) * -1);
+                    width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+                }
+
+                #container05.columns > .wrapper > .inner > div > .full:first-child {
+                    margin-top: calc(var(--gutters) * -0.5) !important;
+                }
+
+                #container05.columns > .wrapper > .inner > div > .full:last-child {
+                    margin-bottom: calc(var(--gutters) * -0.5) !important;
+                }
+
+                #container05.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
+                    margin-top: calc(var(--padding-vertical) * -1) !important;
+                }
+
+                #container05.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
+                    margin-bottom: calc(var(--padding-vertical) * -1) !important;
+                }
+
+                #container05.columns > .wrapper > .inner > div:last-of-type, #container05.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
+                    border-top-left-radius: inherit;
+                    border-top-right-radius: inherit;
+                }
+
+                #container05.columns > .wrapper > .inner > div:first-of-type, #container05.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
+                    border-bottom-left-radius: inherit;
+                    border-bottom-right-radius: inherit;
+                }
+
+                #container05.columns > .wrapper > .inner > div:last-of-type, #container05.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+                    border-bottom-right-radius: 0 !important;
+                }
+
+                #container05.columns > .wrapper > .inner > div:first-of-type, #container05.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+                    border-top-left-radius: 0 !important;
+                }
+
+                #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+                    height: auto;
+                }
+
+                #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+                    height: auto;
+                    position: relative;
+                    width: auto;
+                }
+
+                #container05 > .wrapper > .inner > :nth-child(1) {
+                    min-height: 100% !important;
+                    width: 100% !important;
+                }
+
+                #container05 > .wrapper > .inner > :nth-child(2) {
+                    min-height: 100% !important;
+                    width: 100% !important;
+                }
+
                 #form01 label:first-child {
                     font-size: 1em;
                     line-height: 1.5;
@@ -4402,6 +4907,10 @@
                     --spacing: 1.09375rem;
                 }
 
+                #container05 > .wrapper > .inner {
+                    --spacing: 1.09375rem;
+                }
+
                 #form01 .actions button {
                     max-width: 32rem;
                     width: 100%;
@@ -4442,6 +4951,18 @@
                 }
 
                 #text07 {
+                    font-size: 1em;
+                }
+
+                #text23 {
+                    font-size: 1em;
+                }
+
+                #text24 {
+                    font-size: 1em;
+                }
+
+                #text22 {
                     font-size: 1em;
                 }
 
@@ -4493,7 +5014,11 @@
                     gap: 0.75rem;
                 }
 
-                #buttons05 {
+                #buttons01 {
+                    gap: 0.75rem;
+                }
+
+                #buttons04 {
                     gap: 0.75rem;
                 }
 
@@ -4575,6 +5100,13 @@
 
                 #container07.columns > .wrapper > .inner > .full {
                     min-height: 17.5rem;
+                }
+
+                #container05 > .wrapper > .inner {
+                    --gutters: 4rem;
+                    --padding-horizontal: 0rem;
+                    --padding-vertical: 0rem;
+                    --spacing: 0.9375rem;
                 }
 
                 #icons02 {

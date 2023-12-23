@@ -1,4 +1,4 @@
- (function() {
+            (function() {
                 var on = addEventListener
                   , off = removeEventListener
                   , $ = function(q) {
@@ -2298,6 +2298,63 @@
                     delay: 1000,
                     replay: true
                 });
+                onvisible.add('#text23', {
+                    style: 'fade-down',
+                    speed: 1500,
+                    intensity: 5,
+                    threshold: 3,
+                    delay: 3000,
+                    stagger: 250,
+                    staggerOrder: 'random',
+                    staggerSelector: ':scope > *',
+                    replay: true
+                });
+                onvisible.add('#text24', {
+                    style: 'fade-down',
+                    speed: 1500,
+                    intensity: 5,
+                    threshold: 3,
+                    delay: 3000,
+                    stagger: 250,
+                    staggerOrder: 'random',
+                    staggerSelector: ':scope > *',
+                    replay: true
+                });
+                onvisible.add('#divider08', {
+                    style: 'fade-down',
+                    speed: 1000,
+                    intensity: 5,
+                    threshold: 3,
+                    delay: 2125,
+                    replay: false
+                });
+                onvisible.add('#text22', {
+                    style: 'fade-down',
+                    speed: 1500,
+                    intensity: 5,
+                    threshold: 3,
+                    delay: 3000,
+                    replay: true
+                });
+                onvisible.add('#buttons01', {
+                    style: 'fade-down',
+                    speed: 1500,
+                    intensity: 5,
+                    threshold: 3,
+                    delay: 2000,
+                    stagger: 625,
+                    staggerOrder: 'random',
+                    staggerSelector: ':scope > li',
+                    replay: true
+                });
+                onvisible.add('#image03', {
+                    style: 'fade-up',
+                    speed: 1500,
+                    intensity: 5,
+                    threshold: 3,
+                    delay: 1000,
+                    replay: true
+                });
                 onvisible.add('#divider04', {
                     style: 'fade-down',
                     speed: 1000,
@@ -2314,7 +2371,7 @@
                     delay: 3000,
                     replay: true
                 });
-                onvisible.add('#buttons05', {
+                onvisible.add('#buttons04', {
                     style: 'fade-down',
                     speed: 1500,
                     intensity: 5,
@@ -2536,4 +2593,3 @@
                 });
             }
             )();
- 
